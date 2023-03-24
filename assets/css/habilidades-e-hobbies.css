@@ -1,0 +1,68 @@
+section.habilidades, .hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 32px;   
+
+}
+
+.habilidades_titulo, .hobbies_titulo {
+    font-size: 32px;
+    font-family: "Gloock", serif;
+    color: rgb(196, 185, 185);
+    margin-bottom: 30px;
+}
+
+.habilidades_item, .hobbies_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    
+    font-family: 'Lobster Two', cursive;
+    font-size: 22px;
+    justify-content: space-between;
+}
+    
+.logo_habilidades {
+    width: 45px;
+    height: 40px;
+    color:#f7f5f8;
+}
+    
+.logo_hobbies {
+    width: 55px;
+    height: 55px;
+    color:#f7f5f8;
+}
+    
+.item {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: #f7f5f8 rgba(0, 0, 0, 0.29);
+    box-sizing: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 2px 8px;
+
+    padding: 20px;
+    margin: 10px 10px;
+
+    width: 150px;
+    height: 100px;
+}
+
+.item:hover{
+    background-color: rgb(83, 12, 150);
+    font-size: 28px;
+
+    text-shadow: 4px 15px 3px rgba(0, 0, 0, 0.29);
+    width: 180px;
+    height: 120px;
+    transition: 0.5s all; 
+}
+
+

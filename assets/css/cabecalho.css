@@ -1,0 +1,212 @@
+/* Geral - botões */
+button, ul, a{
+    list-style: none;
+    text-decoration: none;
+    color: #e8def1;
+}
+
+header {
+    background-image: url(../IMG/banner-header.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho_titulo {
+    font-style: normal;
+    color: rgb(248, 241, 241);
+
+    line-height: 19px;
+    font-size: 28px;
+    font-family: "Gloock", serif;
+    
+    margin: 30px 30px;
+    text-shadow: 3px 6px 3px rgba(0, 0, 0, 0.29);
+
+}
+
+.cabecalho_menu_botao-item {
+    background-color: rgba(194, 192, 196, 0.308);
+    border: 0;
+    border-radius: 10px;
+    
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    justify-content: baseline;
+
+    padding: 10px;
+
+    margin-right: 20px;
+}
+
+.cabecalho_menu_botao-item a:hover {
+	color:#343335;
+
+    font-family: 'Lobster Two', cursive;    
+    font-size: 28px;
+
+    text-decoration: wavy;
+    transition: 0.5s all;
+
+
+}
+
+img.avatar {
+    width: 368px;
+    height: 368px;
+    left: 768px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    margin: 0;
+    
+}
+
+/*Menu*/
+.cabecalho_menu {
+    display: flex;
+    align-items: start;
+    
+    justify-content: space-between;
+    flex-direction: row;
+    
+    padding: 32px 0px 32px 10px;
+}
+
+.cabecalho_inicio_divisao {
+    display: flex;
+    justify-content: space-around;
+    align-items: initial;
+
+    padding: 32px 0px 32px 10px;
+
+}
+
+.cabecalho_inicio_negrito {
+
+    color: #e8def1;
+    padding: auto;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    
+    line-height: 61px;
+    text-shadow: 3px 6px 3px rgba(0, 0, 0, 0.29);
+
+}
+
+h3.cabecalho_inicio_intro {
+    color: #efecf1;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 990px;
+    height: 52px;
+    
+    text-align: justify;
+    text-shadow: 3px 6px 3px rgba(0, 0, 0, 0.29);
+
+}
+
+/* LINKS Redes Sociais */
+
+.redes_sociais {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    margin: 0px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.637);
+    
+}
+    
+.redes_sociais-item {
+    font-family: 'Lobster Two', cursive;
+    font-size: 22px;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.logos {
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    color:#f7f5f8;
+    text-shadow: 3px 4px 2px rgba(0, 0, 0, 0.29);
+
+}
+
+.logos:hover{
+    color:  rgb(83, 12, 150);
+    transition: 0.4s all;
+
+}
+
+
+.logos_curriculo{
+    width: 35px;
+    height: 35px;
+    color: #f7f5f8;
+}
+
+.logos_curriculo:hover{
+    color: #f815ad;
+}
+
+
+
+
+.experiencia__botao--demo{
+    justify-content: baseline;
+    background-color: rgba(112, 110, 114, 0.308);
+    border: 5px;
+    border-radius: 10px;
+    color: #e8def1;
+   
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+   
+    padding: 10px;
+}
+
+.experiencia__botao--repo{
+    justify-content: baseline;
+    background-color: rgba(112, 110, 114, 0.308);
+    border: 5px;
+    border-radius: 10px;
+    color: #e8def1;
+   
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+   
+    padding: 10px;
+}
+
+
+.cabecalho_redes_sociais {
+    padding: 24px 0;
+    font-size: 24px;
+}
+
+.cabecalho_redes_sociais a {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+
+    width: 20%;
+
+    text-decoration: none;
+}
+
+
+
