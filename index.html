@@ -2,8 +2,8 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="./assets/css/habilidades-e-hobbies.css">
     <link rel="stylesheet" href="./assets/css/formacao.css">
     <link rel="stylesheet" href="./assets/css/contato.css">
+    <link rel="stylesheet" href="./assets/css/contatoInputs.css">
 
 </head>
 
@@ -191,12 +192,34 @@
                <br>
                <br>
                Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</h3>
-                <form class="contato__formulario">
-                    <input class="contato__input" type="text" id="nome" placeholder="Nome">
-                    <input class="contato__input" type="email" id="email" placeholder="Email">
-                    <input class="contato__input" type="text" id="assunto" placeholder="Assunto">
-                    <textarea class="contato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
-                    <button class="contato__botao">Enviar mensagem</button>
+            <form class="contato__formulario" action="https://formsubmit.co/carolmacioti.dev@gmail.com" method="POST">
+                <fieldset>
+                    <div class="contato__input">
+                        <input  class="input" name="nome" id="nome" type="text" data-tipo="nome" placeholder="Insira seu nome" minlength="3" maxlength="50"  required>
+                        <span class="input-mensagem-erro">Este campo não está válido.</span>  
+                    </div>
+                  
+                    <div class="contato__input">
+                        <input class="input" type="email" name="email" id="email" placeholder="Texto@email.com"  data-tipo="email" minlength="8"required>
+                        <span class="input-mensagem-erro">Este campo não está válido.</span>
+ 
+                    </div>
+
+                    <div class="contato__input">
+                        <input class="input" type="text" name="assunto" id="assunto" placeholder="Assunto" data-tipo="assunto" maxlength="50" required>
+                        <span class="input-mensagem-erro">Este campo não está válido.</span>
+                    </div>
+
+                    <div class="contato__textarea">
+                        <input class="textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Escreva sua mensagem aqui" maxlength="300" required></input>
+                        <span class="input-mensagem-erro">É pnecessário escrever uma mensagem</span>
+                    </div>
+                </fieldset>
+
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigada.html"> 
+                    
+                    <button type="submit" class="contato__botao" >Enviar mensagem</button>   
                 </form>
             </div>
         </div>
@@ -215,7 +238,11 @@
 
     
     <!-- colocar SCRIPT -->
-<script type="module" src="./validate.js"></script>
+
+
+<script type="module" src="./js/app.js"></script>
+<script type="module" src="./js/validacao.js"></script>
+
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 
 

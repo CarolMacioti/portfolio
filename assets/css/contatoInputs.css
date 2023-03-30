@@ -1,0 +1,173 @@
+fieldset {
+    border: none;
+    margin: 2px;
+    padding: 10px 10px 10px 0;
+}
+
+::placeholder {
+    visibility: visible;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.contato__input {
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: 10px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    
+    position: relative;
+    line-height: 20px;
+    margin-bottom: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+
+    width: 656px;
+    height: 56px;
+}
+
+.input {
+    border-radius: 10px;
+    box-sizing: border-box;
+    border-bottom: 3px solid rgb(135, 24, 238);
+
+    padding: 0.8rem 0.2rem 0.2rem;
+    height: 3.25rem;
+    width: 100%;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.input-label {
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+    font-size: 16px;
+
+    transition: all .25s;
+}
+
+.input-label:hover {
+	color:#343335;
+   
+    font-size: 20px;
+
+    text-decoration: wavy;
+    text-shadow: 3px 6px 2px rgba(0, 0, 0, 0.29);
+    transition: 0.5s all;
+}
+
+.input:not(:placeholder-shown) + .input-label, .input:focus + .input-label {
+    font-size: 0.875rem;
+    top: 0.25rem;
+    transition: all .25s;
+}
+
+
+.contato__input--invalido .input {
+    border: 1px solid rgb(135, 24, 238);
+    border-radius: 7px;
+}
+
+.input-mensagem-erro {
+    display: none;
+}
+
+.contato__input--invalido .input-mensagem-erro {
+    color: rgb(243, 10, 138);
+    display: block;
+    margin-top: 0;
+    padding-left: 6px;
+}
+
+#nomeErro {
+    display: none;
+    font-size: 0.8em;
+  }
+  
+#nomeErro.visible {
+    display: block;
+  }
+  
+input.invalid {
+    border-color: rgb(243, 10, 138);
+  }
+
+/* --------------------------------------------------- */
+
+.textarea {
+    align-self: stretch;
+    
+    box-sizing: border-box;
+    border: 3px solid rgb(135, 24, 238);
+    border-radius: 10px;
+    
+    flex: none;
+    flex-grow: 0;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    
+    
+    margin-top: 0.5rem;
+    min-height: 3rem;
+    order: 0;
+    padding: 0.5rem;    
+    position: static;
+    
+    text-align: center;
+
+    width: 100%;
+    height:135px ;
+}
+
+.contato__textarea:hover { 
+    text-decoration: wavy;
+    text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.29);
+    transition: 0.5s all;
+}
+
+.textarea:focus {
+    outline: none;
+}
+
+.textarea:not(:placeholder-shown) {
+    font-size: 0.875rem;
+    top: -1.25rem;
+    transition: all 0.25s;
+}
+
+.textarea-mensagem-erro {
+    display: none;
+}
+/*
+.contato__textarea--invalido {
+    margin-bottom: 0.5rem;
+}
+
+ .contato__textarea--invalido .textarea {
+    border: 1px solid red;
+}
+
+.contato__textarea--invalido {
+    color: red;
+}
+
+.contato__textarea--invalido .textarea-mensagem-erro {
+    display: block;
+    color: red;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+ */

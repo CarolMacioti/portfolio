@@ -6,21 +6,23 @@ html {
 }
 
 
-
-
-:root{
-    /*Insira a variavel das outras cores inspecionando o modelo do figma*/
-    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
-   --cor-de-fundo: #F5F5F5;
-   --cor-de-link: #3b1188;
-}
-
 body {
     box-sizing: border-box;
     font-family: 'Glook', sans-serif;
     margin: 0;
     padding: 0;
     line-height: 2;
+}
+
+.formEnviado_saudacao {
+    color: rgb(196, 185, 185);
+    display: flex;
+    
+    font-family: 'Gloock', serif;
+    font-size: 80px;
+    justify-content: center;
+
+    margin-top: 250px;
 }
 
 
