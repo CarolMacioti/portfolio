@@ -1,5 +1,6 @@
 /* Geral - botões */
 button, ul, a{
+    
     list-style: none;
     text-decoration: none;
     color: #e8def1;
@@ -12,6 +13,8 @@ button, ul, a{
 }
 
 .cabecalho_titulo {
+    background: #6603a3d5;
+
     font-style: normal;
     color: rgb(248, 241, 241);
 

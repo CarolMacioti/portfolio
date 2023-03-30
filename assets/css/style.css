@@ -1,7 +1,9 @@
-html {
-    background-image: url(../IMG/bg-desktop.jpg);
+.container {
+   background-image: url(../IMG/bg-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
+    background-color: rgb(20, 2, 37);
 
     box-sizing: border-box;
     font-family: 'Glook', sans-serif;
