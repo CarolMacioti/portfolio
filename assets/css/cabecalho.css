@@ -5,12 +5,6 @@ button, ul, a{
     color: #e8def1;
 }
 
-header {
-    background-image: url(../img/bg-cabecalho-desktop.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 /* Cabeçalho */
 .cabecalho {
     display: flex;
