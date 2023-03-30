@@ -3,14 +3,24 @@ section.habilidades, .hobbies {
     flex-direction: column;
     align-items: center;
     padding: 40px;
-    gap: 32px;   
+    gap: 32px;  
+    margin: 40px; 
 
 }
 
-.habilidades_titulo, .hobbies_titulo {
+.habilidades_titulo {
     font-size: 32px;
     font-family: "Gloock", serif;
     color: rgb(196, 185, 185);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.hobbies_titulo {
+    font-size: 32px;
+    font-family: "Gloock", serif;
+    color: rgb(196, 185, 185);
+    
     margin-bottom: 30px;
 }
 
