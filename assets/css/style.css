@@ -1,4 +1,4 @@
-.container {
+.body__container {
    background-image: url(../img/bg-desktop.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,46 +38,11 @@ Link da documentação oficial!
 https://en.bem.info/methodology/quick-start/*/
 
 
-
-/* Chegou a hora de se desafiar com a responsividade, 
-utilize como referência os breakpoints @media abaixo*/
-
-/*Tablet*/
-@media (min-width: 768px) {
-
-/* Menu */
-
-/*title*/
-
-/*Skills*/
-
-/*Hobbies*/
-
-/*Experiências acadêmicas*/
-
-/*Expeirência profissional*/
-
+@media screen and (min-width: 1024px) {
+	.body__container {
+		padding-left: calc((100% - 940px)/2);
+		padding-right: calc((100% - 940px)/2);
+	}
 }
 
-/*Mobile*/
-@media (min-width: 425px) {
 
-/*Menu*/
-
-/*Titulo*/
-
-/*Sessão sobre*/
-
-/*Skills*/
-
-/*Hobbies*/
- 
-/*Formação Acadêmica*/
-
-/*Experiência Profissional*/
-
- /*Contato*/
-
-/*Footer*/
-
-}

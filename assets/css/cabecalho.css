@@ -1,6 +1,34 @@
+@media screen and (max-width: 1024px) {
+    .cabecalho_responsivo {
+        
+        flex-direction: row;
+        justify-content: space-between;
+        border: none;
+    }
+
+    .cabecalho_inicio_divisao {
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .cabecalho_inicio_intro {
+        flex-direction: column;
+        justify-content: center;
+
+        border: none;
+    }
+
+}
+
+@media screen and (min-width: 450px) {
+
+}
+
 /* Geral - botões */
-button, ul, a{
-    
+button,
+ul,
+a {
     list-style: none;
     text-decoration: none;
     color: #e8def1;
@@ -10,6 +38,13 @@ button, ul, a{
 .cabecalho {
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
+
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    
+    width: 100%;
+    
 }
 
 .cabecalho_titulo {
@@ -21,17 +56,16 @@ button, ul, a{
     line-height: 19px;
     font-size: 36px;
     font-family: "Gloock", serif;
-    
+
     margin: 30px 30px;
     text-shadow: 3px 6px 3px rgba(0, 0, 0, 0.29);
-
 }
 
 .cabecalho_menu_botao-item {
     background-color: rgba(194, 192, 196, 0.308);
     border: 0;
     border-radius: 10px;
-    
+
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     justify-content: baseline;
@@ -43,9 +77,9 @@ button, ul, a{
 }
 
 .cabecalho_menu_botao-item a:hover {
-	color:#343335;
+    color: #343335;
 
-    font-family: 'Lobster Two', cursive;    
+    font-family: 'Lobster Two', cursive;
     font-size: 28px;
 
     text-decoration: wavy;
@@ -62,17 +96,16 @@ img.avatar {
     flex-grow: 0;
 
     margin: 0;
-    
 }
 
 /*Menu*/
 .cabecalho_menu {
     display: flex;
     align-items: start;
-    
+
     justify-content: space-between;
     flex-direction: row;
-    
+
     padding: 32px 0px 32px 10px;
 }
 
@@ -82,28 +115,26 @@ img.avatar {
     align-items: initial;
 
     padding: 32px 0px 32px 10px;
-
 }
 
 .cabecalho_inicio_negrito {
 
     color: #e8def1;
-    margin: 20px 20px 30px 0 ;
+    margin: 20px 20px 30px 0;
     padding: auto;
 
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
-    
+
     line-height: 61px;
     text-shadow: 3px 6px 3px rgba(0, 0, 0, 0.29);
-
 }
 
 h3.cabecalho_inicio_intro {
     color: #efecf1;
-    
+
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -111,10 +142,9 @@ h3.cabecalho_inicio_intro {
     line-height: 26px;
     width: 990px;
     height: 52px;
-    
+
     text-align: justify;
     text-shadow: 3px 6px 3px rgba(0, 0, 0, 0.29);
-
 }
 
 /* LINKS Redes Sociais */
@@ -125,9 +155,8 @@ h3.cabecalho_inicio_intro {
     padding: 30px 0 30px 0px;
     margin-top: 90px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.637);
-    
 }
-    
+
 .redes_sociais-item {
     font-family: 'Lobster Two', cursive;
     font-size: 22px;
@@ -139,57 +168,50 @@ h3.cabecalho_inicio_intro {
     margin-left: 20px;
     width: 40px;
     height: 40px;
-    color:#f7f5f8;
+    color: #f7f5f8;
     text-shadow: 3px 4px 2px rgba(0, 0, 0, 0.29);
-
 }
 
-.logos:hover{
-    color:  rgb(83, 12, 150);
+.logos:hover {
+    color: rgb(83, 12, 150);
     transition: 0.4s all;
-
 }
 
-
-.logos_curriculo{
+.logos_curriculo {
     width: 35px;
     height: 35px;
     color: #f7f5f8;
 }
 
-.logos_curriculo:hover{
+.logos_curriculo:hover {
     color: #f815ad;
 }
 
-
-
-
-.experiencia__botao--demo{
+.experiencia__botao--demo {
     justify-content: baseline;
     background-color: rgba(112, 110, 114, 0.308);
     border: 5px;
     border-radius: 10px;
     color: #e8def1;
-   
+
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-   
+
     padding: 10px;
 }
 
-.experiencia__botao--repo{
+.experiencia__botao--repo {
     justify-content: baseline;
     background-color: rgba(112, 110, 114, 0.308);
     border: 5px;
     border-radius: 10px;
     color: #e8def1;
-   
+
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-   
+
     padding: 10px;
 }
-
 
 .cabecalho_redes_sociais {
     padding: 24px 0;
@@ -205,5 +227,12 @@ h3.cabecalho_inicio_intro {
     text-decoration: none;
 }
 
+/*Layout Desktop*/
 
+@media screen and (min-width: 1024px) {
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+    }
 
+}
