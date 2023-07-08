@@ -1,10 +1,4 @@
 @media screen and (max-width: 1024px) {
-    .cabecalho_responsivo {
-        
-        flex-direction: row;
-        justify-content: space-between;
-        border: none;
-    }
 
     .cabecalho_inicio_divisao {
         flex-direction: column;
@@ -18,10 +12,6 @@
 
         border: none;
     }
-
-}
-
-@media screen and (min-width: 450px) {
 
 }
 
@@ -83,7 +73,7 @@ a {
     font-size: 28px;
 
     text-decoration: wavy;
-    transition: 0.5s all;
+    transition: 0.2s all;
 }
 
 img.avatar {
