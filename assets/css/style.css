@@ -1,4 +1,4 @@
-.body__container {
+body {
    background-image: url(../img/bg-desktop.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -6,7 +6,7 @@
     background-color: rgb(20, 2, 37);
 
     box-sizing: border-box;
-    font-family: 'Glook', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     line-height: 2;

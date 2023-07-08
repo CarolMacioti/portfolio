@@ -1,4 +1,10 @@
 @media screen and (max-width: 1024px) {
+    .cabecalho_responsivo {
+        
+        flex-direction: row;
+        justify-content: space-between;
+        border: none;
+    }
 
     .cabecalho_inicio_divisao {
         flex-direction: column;
@@ -14,6 +20,7 @@
     }
 
 }
+
 
 /* Geral - botões */
 button,
@@ -31,10 +38,7 @@ a {
     box-sizing: border-box;
 
     padding-top: .75rem;
-    padding-bottom: .75rem;
-    
-    width: 100%;
-    
+    padding-bottom: .75rem;    
 }
 
 .cabecalho_titulo {
@@ -217,12 +221,3 @@ h3.cabecalho_inicio_intro {
     text-decoration: none;
 }
 
-/*Layout Desktop*/
-
-@media screen and (min-width: 1024px) {
-    .cabecalho {
-        display: flex;
-        flex-direction: column;
-    }
-
-}
