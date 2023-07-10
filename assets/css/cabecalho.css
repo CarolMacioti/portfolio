@@ -1,6 +1,6 @@
 @media screen and (max-width: 1024px) {
     .cabecalho_responsivo {
-        
+
         flex-direction: row;
         justify-content: space-between;
         border: none;
@@ -38,7 +38,7 @@ a {
     box-sizing: border-box;
 
     padding-top: .75rem;
-    padding-bottom: .75rem;    
+    padding-bottom: .75rem;
 }
 
 .cabecalho_titulo {
@@ -48,7 +48,7 @@ a {
     color: rgb(248, 241, 241);
 
     line-height: 19px;
-    font-size: 36px;
+    font-size: 46px;
     font-family: "Gloock", serif;
 
     margin: 30px 30px;
@@ -62,22 +62,18 @@ a {
 
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    justify-content: baseline;
-
-    padding: 10px;
-
+    justify-content: baseline;   
     margin-top: 20px;
     margin-right: 30px;
+    padding: 10px;
 }
 
 .cabecalho_menu_botao-item a:hover {
-    color: #343335;
 
     font-family: 'Lobster Two', cursive;
-    font-size: 28px;
 
     text-decoration: wavy;
-    transition: 0.2s all;
+    transition: 0.1s all;
 }
 
 img.avatar {
@@ -94,11 +90,10 @@ img.avatar {
 
 /*Menu*/
 .cabecalho_menu {
-    display: flex;
     align-items: start;
-
-    justify-content: space-between;
+    display: flex;
     flex-direction: row;
+    justify-content: space-between;
 
     padding: 32px 0px 32px 10px;
 }
@@ -181,32 +176,6 @@ h3.cabecalho_inicio_intro {
     color: #f815ad;
 }
 
-.experiencia__botao--demo {
-    justify-content: baseline;
-    background-color: rgba(112, 110, 114, 0.308);
-    border: 5px;
-    border-radius: 10px;
-    color: #e8def1;
-
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-
-    padding: 10px;
-}
-
-.experiencia__botao--repo {
-    justify-content: baseline;
-    background-color: rgba(112, 110, 114, 0.308);
-    border: 5px;
-    border-radius: 10px;
-    color: #e8def1;
-
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-
-    padding: 10px;
-}
-
 .cabecalho_redes_sociais {
     padding: 24px 0;
     font-size: 24px;
@@ -214,10 +183,7 @@ h3.cabecalho_inicio_intro {
 
 .cabecalho_redes_sociais a {
     font-family: "Roboto", sans-serif;
-    font-size: 18px;
-
-    width: 20%;
-
+    font-size: 18px; 
     text-decoration: none;
+    width: 20%;
 }
-
